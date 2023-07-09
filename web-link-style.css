@@ -1,0 +1,16 @@
+body{
+    color: black;
+}
+
+.left-side, 
+.right-side{
+    background-image: url(media/fintan_3pt_white.svg);
+}
+
+.web-link{
+    color: #ffe600;
+}
+
+.art-link{
+    color: white;
+}

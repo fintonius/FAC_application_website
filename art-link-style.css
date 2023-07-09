@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+}
+
+.left-side, 
+.right-side{
+    background-image: url(media/fintan\ _3pt_yellow.svg);
+
+}
+
+header,
+footer{
+    color: black;
+}
