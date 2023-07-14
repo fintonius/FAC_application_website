@@ -4,41 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
     <link rel="stylesheet" href="web-link-style.css">
     <title>Web Links</title>
 </head>
 <body>
-    <div class="background">
-        <div class="left-side"></div>
-        <div class="right-side"></div>
-    </div>
-    <div class="content">
-        <header class="header">HEADER</header>     
-           
-        <div class="center row">
-            <h1>This is a page of links to my web projects</h1>
-
-            <button>Back</button>
-        </div>        
-        <div class="links">
-            <div class="web-link">
-                <h1 id="home">HOME</h1>
-                <a href="index.html" class="link">
-                    <img src="media/Flynn awesome portrait - circle.png" class="web-link-image link">
-                </a>
-            </div>
-            <div class="art-link">
-                <h1 id="art" >ART</h1>
-                <a href="art-link.html" class="link" >
-                <video  autoplay loop playsinline muted>
-                    <source src="media/Helmet1-HR h264.mp4" type="video/mp4">
-                </video>
-                </a>
-            </div>
+    <a href="index.html">
+        <header class="header">
+            <img class="name" src="media/name_3pt_black.svg">
+        <div class="logo"><img  src="media/Flynn awesome portrait - circle.png" ></div>
+        </header>
+    </a>
+    <div class="nav-bar"> 
+        <div class="site-links nav-links">
+            <a href="index.html">HOME</a>
+            <a href="art-link.html">ART</a>
+            <a href="web-link.html">WEB</a>
+        </div>
+        <div class="external-links nav-links">
+            <a href="https://www.instagram.com/fintonius.mcginty" target="_blank">
+                <img class="link-logo" src="media/insta-small.png">
+            </a>
+            <a href="https://github.com/fintonius" target="_blank">
+                <img class="link-logo" src="media/github-mark-small.png">
+            </a>
         </div>
     </div>
+    <main class="project-links">
+        <article class="web-project-link">
+            <a href="https://fintonius.github.io/etch-a-sketch2/" target="_blank">
+                <img src="media/etch-a-sketch.jpg"></a>
+            <h1>Etch-A-Sketch</h1>
+            <p>This is a project I completed as part of the Odin Project
+                course I was taking.
+            </p>
+        </article>
+        <article class="web-project-link">
+            <a href="https://fintonius.github.io/calculator2/" target="_blank">
+                <img src="media/calculator.jpg"></a>
+            <h1>Calculator</h1>
+            <p>This is a project I completed as part of the Odin Project
+                course I was taking.
+            </p></p>
+        </article>
+        <article class="web-project-link">
+            <a href="https://fintonius.github.io/library/" target="_blank">
+                <img src="media/library.jpg">
+            </a>
+            <h1>Library</h1>
+            <p>This is a project I completed as part of the Odin Project
+                course I was taking.
+            </p></p>
+        </article>
+        <article class="web-project-link">
+            <a href="https://fintonius.github.io/rock_paper_scissors/" target="_blank">
+                <img src="media/rock.jpg">
+            </a>
+            <h1>Rock/Paper/Scissors</h1>
+            <p>This is a project I completed as part of the Odin Project
+                course I was taking.
+            </p></p>
+        </article>
+        <article class="web-project-link">
+            <a><img></a>
+            <h1>Github Account</h1>
+            <p>This is my Github account</p>
+        </article>
+        <article class="web-project-link">
+            <a><img></a>
+            <h1>Cuppa</h1>
+            <p>This is the game I created for my application to the 
+                Founders and Coders bootcamp course.
+            </p>
+        </article>
+    </main>
     <footer>FOOTER</footer>
+
 <script src="script.js"></script>
 </body>
 </html>

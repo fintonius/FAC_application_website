@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery-style.css"/>
+    <title>Drawings</title>
+</head>
+<body>
+    <a href="index.html">
+        <header class="header">
+            <img class="name" src="media/name_3pt_yellow.svg">
+        <div class="logo"><img  src="media/Flynn awesome portrait - circle.png" ></div>
+        </header>
+    </a>
+    <div class="nav-bar"> 
+        <div class="site-links nav-links">
+            <a href="index.html">HOME</a>
+            <a href="art-link.html">ART</a>
+            <a href="web-link.html">WEB</a>
+        </div>
+        <div class="external-links nav-links">
+            <a href="https://www.instagram.com/fintonius.mcginty" target="_blank">
+                <img class="link-logo" src="media/insta-small.png">
+            </a>
+            <a href="https://github.com/fintonius" target="_blank">
+                <img class="link-logo" src="media/github-mark-small.png">
+            </a>
+        </div>
+     </div>
+    <main>
+        <div class="preview-image"></div>
+                <!-- fullsize gallery  -->
+                <div id="full-gallery-background">
+                    <span class="close cursor" onclick="closeGallery()">&times;</span>
+                    <div class="full-gallery-content">                        
+                            <img class="full-image" src="media/images/cumm face.jpg" alt="Dominic Cummings is a piece of shit">
+                            <img class="full-image" src="media/images/M05827.jpg" alt="Drawing of a scene from A Field in England">
+                            <img class="full-image" src="media/images/Drawing from film - A Field in England 1.jpg" alt="Field in England study">
+                            <img class="full-image" src="media/images/M05801.jpg" alt="Field in England study">
+                            <img class="full-image" src="media/images/M05802.jpg" alt="A page from my sketchbook">
+                            <img class="full-image" src="media/images/M05803.jpg" alt="A page from my sketchbook">
+                            <img class="full-image" src="media/images/M05804.jpg" alt="A page from my sketchbook">
+                            <img class="full-image" src="media/images/M05805.jpg" alt="A page from my sketchbook">
+                            <img class="full-image" src="media/images/M05806.jpg" alt="A page from my sketchbook">
+                            <img class="full-image" src="media/images/M05807.jpg" alt="A page from my sketchbook">
+                            <img class="full-image" src="media/images/M05808.jpg" alt="A page from my sketchbook">
+                            <img class="full-image" src="media/images/M05809.jpg" alt="A page from my sketchbook">
+                            <img class="full-image" src="media/images/M05828.jpg" alt="Field in England study">
+                            <img class="full-image" src="media/images/M05834.jpg" alt="Field in England study">
+                            <img class="full-image" src="media/images/M05833.jpg" alt="Field in England study">
+                            <img class="full-image" src="media/images/M05835.jpg" alt="Field in England study">
+                            <img class="full-image" src="media/images/M05836.jpg" alt="Field in England study">
+                            <img class="full-image" src="media/images/M05838.jpg" alt="Field in England study">
+                            <img class="full-image" src="media/images/M05800.jpg" alt="Field in England study">
+                        </div>  
+                    <a class="prev arrow" onclick="plusSlide(-1)">&#10094;</a>
+                    <a class="next arrow" onclick="plusSlide(1)">&#10095;</a>      
+                </div>
+
+        <!-- preview images to click for full size gallery -->
+        <div id="image-grid" class="image-grid"> 
+                <img class="preview-image" src="media/images/cumm face.jpg" alt="Dominic Cummings is a piece of shit">
+                <img class="preview-image" src="media/images/M05827.jpg" alt="Drawing of a scene from A Field in England">
+                <img class="preview-image" src="media/images/Drawing from film - A Field in England 1.jpg" alt="Field in England study">
+                <img class="preview-image" src="media/images/M05801.jpg" alt="Field in England study">
+                <img class="preview-image" src="media/images/M05802.jpg" alt="A page from my sketchbook">
+                <img class="preview-image" src="media/images/M05803.jpg" alt="A page from my sketchbook">
+                <img class="preview-image" src="media/images/M05804.jpg" alt="A page from my sketchbook">
+                <img class="preview-image" src="media/images/M05805.jpg" alt="A page from my sketchbook">
+                <img class="preview-image" src="media/images/M05806.jpg" alt="A page from my sketchbook">
+                <img class="preview-image" src="media/images/M05807.jpg" alt="A page from my sketchbook">
+                <img class="preview-image" src="media/images/M05808.jpg" alt="A page from my sketchbook">
+                <img class="preview-image" src="media/images/M05809.jpg" alt="A page from my sketchbook">
+                <img class="preview-image" src="media/images/M05828.jpg" alt="Field in England study">
+                <img class="preview-image" src="media/images/M05834.jpg" alt="Field in England study">
+                <img class="preview-image" src="media/images/M05833.jpg" alt="Field in England study">
+                <img class="preview-image" src="media/images/M05835.jpg" alt="Field in England study">
+                <img class="preview-image" src="media/images/M05836.jpg" alt="Field in England study">
+                <img class="preview-image" src="media/images/M05838.jpg" alt="Field in England study">
+                <img class="preview-image" src="media/images/M05800.jpg" alt="Field in England study">
+        </div>
+
+    </main>
+    <script src="gallery-script.js"></script>
+</body>
+</html>
