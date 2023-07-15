@@ -33,14 +33,11 @@ header{
     display: grid;
     grid-template-rows: 1fr;
     grid-gap: 3rem;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .content{
     width: 100%;
 }
-
 
 .links{
     width: 100%;
