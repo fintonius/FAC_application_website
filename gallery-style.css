@@ -167,3 +167,7 @@ header{
     cursor: pointer;
     opacity: .7;
 }
+
+footer{
+    font-size: small;
+}
