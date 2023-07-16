@@ -1,10 +1,7 @@
 # FAC_application_website
 
 For the project I want to build my first complete website. It's 
-something I have been avoiding doing for most of the time I've 
-been learning web-development as it's quite a daunting task! I
-also haven't been pushed to do it before so have managed to avoid
-it til now.
+something I have been avoiding as it's quite a daunting task!
 
 I want to showcase as much as I can of the knowledge I have learned
 over the past year and a half of learning web dev part time. I also
